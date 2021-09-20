@@ -24,6 +24,8 @@
 }
 .list {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 .button {
     font-family: inherit;
@@ -32,6 +34,7 @@ cursor: pointer;
 }
 /* Logo */
 .logo {
+    margin-right: 93px;
     color: var(--accent-color);
     font-family:"Raleway", sans-serif;
 
@@ -50,8 +53,19 @@ line-height: 1.16;
 text-align: center;
 
 }
+.container {
+    width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 /* Header */
+.header-box {
+    display: flex;
+    align-items: center;
+}
 .header-logo {
     color: var(--primary-text-color);
 }
@@ -59,6 +73,19 @@ text-align: center;
 .header-logo:focus {
     color: inherit;
 }
+
+.list-nav {
+    display: flex;
+    
+}
+/* .item-nav {
+    margin-right: 50px;
+} */
+.item-nav:not(:last-child),
+.contacts-item:not(:last-child) {
+    margin-right: 50px;
+}
+
 
 
 .link-nav.current {
@@ -74,6 +101,11 @@ text-align: center;
  .link-nav:hover,
  .link-nav:focus {
      color: var(--accent-color);
+ }
+
+ .contacts-list {
+     display: flex;
+     margin-left: auto;
  }
  .contacts-link {
      color: var(--secondary-text-color);
