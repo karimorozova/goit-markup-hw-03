@@ -20,7 +20,7 @@
 
      /* Utilities */
      .container {
-        width: 1230px;
+        width: 1200px;
         padding-left: 15px;
         padding-right: 15px;
         margin-right: auto;
@@ -216,10 +216,10 @@ line-height: 1.71;
     margin-right: 0;
 }
 .about-link {
-    display: inline-block;
+    display: block;
 }
 .about-image {
-    display: inline-block;
+    display: block;
 }
 
 /* Our team */
