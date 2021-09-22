@@ -377,10 +377,13 @@ background-color: var(--accent-color);
 }
 .portfolio-image {
     display: block;
-    margin-bottom: 20px;
+}
+.portfolio-content {
+    padding: 20px 24px;
 }
 
 .portfolio-example-title {
+    
     margin-bottom: 4px;
 
     font-weight: 700;
@@ -391,7 +394,6 @@ letter-spacing: 0.06em;
 }
 
  .portfolio-example-text {
-     padding-bottom: 20px;
 
      color: var(--secondary-text-color);
     
